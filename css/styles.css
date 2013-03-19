@@ -1,0 +1,224 @@
+/*
+Nombre: Estudio Jamaica
+Theme URI: http://www.estudiojamaica.com/
+Description: Oro Negro  
+Author: Eduardo Esparza
+Author URI: http://www.bulebule.mx
+Version: 2.0
+*/
+html{
+	height: 100%;
+	width:100%;
+}
+body{
+	height: 100%;
+	width:100%;
+	background: url(../img/bg.jpg);
+	text-align: center;
+}
+
+.ora{
+	width: 100%;
+	height: 20px;
+	display: block;
+	background: orange;
+}
+.ama{
+	width: 100%;
+	height: 70px;
+	display: block;
+	background: yellow;
+}
+
+.ora_bg{
+	width: 100%;
+	height: 20px;
+	display: block;
+	background: orange;
+	position: fixed;
+	bottom: 20px;
+}
+.ama_bg{
+	width: 100%;
+	height: 20px;
+	display: block;
+	background: yellow;
+	position: fixed;
+	bottom: 0;
+}
+#en,#ay{
+	display: none;
+}
+#en,#ay{
+	width: 80%;
+	max-width: 760px;
+	margin-top: 60px;
+}
+#logo{
+	width: 80%;
+	max-width: 760px;
+	margin-top: 0px;
+}
+#con{
+position: absolute;
+left: 0px;
+top: 540px;
+}
+#do{
+position: absolute;
+left: 20px;
+top: 410px;
+}
+#resp{
+position: absolute;
+left: 20px;
+top: 252px;
+}
+#prec{
+	width: 40%;
+	max-width: 700px;
+	display: none;
+}
+#bco{
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: none;
+	position: fixed;
+	z-index: 2;
+}
+#logo, #resp, #do, #con{
+	display: none;
+}
+#cierre{
+	display: none;
+	width: 80%;
+}
+#nav li{
+	display: inline-block;
+}
+#nav{
+width: 100%;
+font-size: 22px;
+position: absolute;
+top: 40px;
+display: none;
+}
+#nav li a{
+	text-decoration: none;
+	text-align: left;
+font-family: helvetica;
+color: rgb(54, 54, 116);
+}
+#nav li a img{
+width: 20px;
+}
+#resp_full{
+	display: none;
+	width: 36%;
+	position: absolute;
+top: 300px;
+left: 642px;
+}
+#graf{
+	display: none;
+	width: 36%;
+		position: absolute;
+top: 300px;
+left: 642px;
+}
+#a1{
+width: 20px;
+height: 10px;
+position: absolute;
+background: #0075A2;
+
+/*bottom: 194px;
+left: 877px;
+*/
+display: none;
+
+bottom: 175px;
+left: 935px;
+}
+#a2{
+width: 20px;
+height: 10px;
+position: absolute;
+background: #00ADEE;
+bottom: 175px;
+left: 980px;
+display: none;
+}
+#sho{
+	display: none;
+	width: 60%;
+}
+
+
+form#contact fieldset {
+	clear:both;
+	float:left;
+	width: 290px;	
+}
+form#contact input[type="text"], input[type="url"], input[type="email"], input[type="tel"], textarea {
+margin: 3px 0 0 0;
+padding: 6px;
+width: 330px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+border: 1px solid #ccc;
+background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #f4f4f4), to(#FFFFFF));
+background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 15px);
+height: 30px;
+}
+form#contact textarea {
+	width: 260px;
+	height: 100px;
+}
+form#contact label {
+	display: block;
+	font-size: 12px;
+	color: #666;
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+form#contact label.error { 
+	width: 270px;
+	margin: 3px 0 0 0;
+	display: block;
+	color: #cf0101;                              
+	font-size: 11px; 
+	text-align: right;
+}
+form#contact .placeholder {
+	color: #aaa;
+}
+form#contact .button {
+display: inline-block;
+margin: 5px 0px 10px 282px;
+padding: 5px 15px 5px 15px;
+background-color: #FF9E00;
+border: none;
+color: white;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+}
+form#contact .button:hover {
+	background-color: #fc8500;
+	cursor: pointer;
+}
+form#contact .button:active {
+	margin-top: 16px;
+	background-color: #f08004;
+	cursor: pointer;
+}
+#contact{
+	position: absolute;
+display: inline-block;
+left: 390px;
+top: 300px;
+display: none;
+}
